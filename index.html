@@ -17,6 +17,9 @@
   <!-- Adding Local Custom Stylesheet later, so that its effect can override the bootstrap stylesheet effects -->
   <link rel="stylesheet" href="css/styles.css">
 
+  <!-- Adding Font Awesome Script from CDN -->
+  <script src="https://kit.fontawesome.com/c9b43d3d94.js" crossorigin="anonymous"></script>
+
 
   <!-- Adding required fonts from Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,14 +31,14 @@
 <body>
 
   <section id="title">
-    <div class="container-fluid">
+    <div class="container-fluid title">
 
 
       <!--- Nav Bar -->
 
-      <nav class="navbar navbar-dark navbar-expand-md">
+      <nav class="navbar navbar-dark navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">TinDog</a>
+          <a class="navbar-brand ml-auto" href="#">TinDog</a>
           <button class="navbar-toggler" name="button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -65,8 +68,8 @@
 
           <div class="col-lg-6">
             <h1>Meet new and interesting dogs nearby.</h1>
-            <button type="button">Download</button>
-            <button type="button">Download</button>
+            <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i> Download</button>
+            <button type="button" class="btn btn-outline-light btn-lg"><i class="fab fa-google-play"></i> Download</button>
           </div>
 
           <div class="col-lg-6">
