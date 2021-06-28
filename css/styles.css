@@ -133,6 +133,10 @@ p {
   margin: 2px;
 }
 
+.pricing-card {
+  padding: 5% 3%;
+}
+
 .pricing-button {
   margin: 2rem;
 }
