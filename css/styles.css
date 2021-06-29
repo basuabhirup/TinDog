@@ -31,33 +31,36 @@ body {
 
 /* ---------------- Title ---------------- */
 .title {
-  padding: 1% 15%;
+  padding: 2% 15% 7%;
 }
 
 h1 {
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
-  margin: auto;
+  margin: 3% auto 10%;
 }
 
 /* ----------- Download Buttons ------------------ */
 .download-btn {
-  margin: 10% 3% 3%;
+  margin: 5% 3% 3%;
 }
 
 /* ---------- Title Image of Dog ---------------- */
+
 .title-image {
-  width: 60%;
-  margin: 5% auto 5% 25%;
   transform: rotate(25deg);
+  position: absolute;
+  margin: 0 auto 0 6%;
 }
 
 /*  ----------------------------- FEATURES Section ------------------------- */
 #features {
   font-family: inherit;
   text-align: center;
-  padding: 10% 15%;
+  padding: 12.5% 15%;
+  background-color: white;
+  position: relative;
 }
 
 h3 {
