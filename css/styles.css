@@ -187,7 +187,7 @@ p {
   max-width: 980px;
   font-size: 3.5rem;
   line-height: 1.5;
-  margin: 5% auto 0;
+  margin: 5% auto;
 }
 
 /* .download-btn styles are written in the Title Section */
@@ -203,14 +203,15 @@ p {
 
 /* .......................................................................... */
 /* --------- Using CSS Media Query for Mobile Optimisation of website ----- */
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1199px) {
 
   #title {
-    padding: 5%;
+    padding: 1% 5%;
   }
 
   .title {
     text-align: center;
+    padding: 7.5% auto;
   }
 
   .title-image {
@@ -218,5 +219,18 @@ p {
     position: static;
     margin: 15% auto;
     transform: rotate(0);
+  }
+
+  #features {
+    padding: 10%
+  }
+
+  .features-box {
+    margin: 3% auto;
+  }
+
+  .pricing-card {
+    max-width: 20rem;
+    margin: 3% auto;s
   }
 }
