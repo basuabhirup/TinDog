@@ -6,6 +6,7 @@ body {
 #title {
   background-color: #ff4c68;
   color: white;
+  padding: 1% 15%;
 }
 
 /* -------------- Navigation Bar ------------------ */
@@ -21,6 +22,7 @@ body {
 
 .nav-item {
   padding: 0 10px;
+  text-align: center;
 }
 
 .nav-link {
@@ -31,10 +33,10 @@ body {
 
 /* ---------------- Title ---------------- */
 .title {
-  padding: 3% 15%;
+  padding: 3% 1% 5%;
 }
 
-h1 {
+.title-heading {
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
@@ -50,7 +52,7 @@ h1 {
 
 
 .title-image {
-  width: 20rem;
+  width: 21rem;
   transform: rotate(25deg);
   position: absolute;
   margin: 2% auto 0 6.5%;
@@ -66,18 +68,20 @@ h1 {
   position: relative;
 }
 
-h3 {
-  font-weight: 900;
-  font-size: 1.5rem;
-}
-
 .features-icon {
   color: #ef8172;
-  padding: 1rem;
+  margin: 1rem auto;
+  line-height: 2;
 }
 
 .features-icon:hover {
   color: #ff4c68;
+}
+
+.features-heading {
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 2;
 }
 
 .features-text {
