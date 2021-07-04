@@ -12,6 +12,8 @@ p {
   margin: 2px;
 }
 
+
+
 .colored-section {
   background-color: #ff4c68;
   color: white;
@@ -201,6 +203,16 @@ p {
   color: #000;
 }
 
+#footer a {
+  text-decoration: none;
+  font-size: 1.15rem;
+  color: #555;
+}
+
+#footer a:hover {
+  color: #000;
+}
+
 /* .......................................................................... */
 /* --------- Using CSS Media Query for Mobile Optimisation of website ----- */
 @media only screen and (max-width: 1199px) {
@@ -238,7 +250,7 @@ p {
     margin: 3% auto;
   }
 
-  #.carousel-item {
+  .carousel-item {
     padding: 7% auto;
   }
 
