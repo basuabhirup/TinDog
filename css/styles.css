@@ -50,7 +50,7 @@ p {
 
 /* ---------------- Title ---------------- */
 .title {
-  padding: 3% 1% 5%;
+  padding: 3% auto 5%;
   text-align: left;
 }
 
@@ -121,7 +121,6 @@ p {
   width: 10%;
   border-radius: 100%;
   margin: 20px;
-  max-height:
 }
 
 /*  ----------------------------- PRESS Section ------------------------- */
@@ -207,12 +206,21 @@ p {
 @media only screen and (max-width: 1199px) {
 
   #title {
-    padding: 1% 5%;
+    padding: 1%;
+    margin: 0;
   }
 
   .title {
+    margin: 0;
     text-align: center;
-    padding: 7.5% auto;
+    padding: 5% 0;
+    max-width: 900px;
+  }
+
+  .title-heading {
+    max-width: 744px;
+    margin: 0 auto 10%;
+    padding: 10% auto;
   }
 
   .title-image {
@@ -223,15 +231,29 @@ p {
   }
 
   #features {
-    padding: 10%
+    padding: 10% auto;
   }
 
   .features-box {
     margin: 3% auto;
   }
 
+  #.carousel-item {
+    padding: 7% auto;
+  }
+
+  #pricing {
+    padding: 7.5% 3%;
+  }
+
   .pricing-card {
-    max-width: 20rem;
-    margin: 3% auto;s
+    max-width: 25rem;
+    margin: 10% auto;
+    padding: 0;
+  }
+
+  #cta{
+    padding: 5% auto;
+    margin: 0;
   }
 }
